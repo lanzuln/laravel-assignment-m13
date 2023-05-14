@@ -1,0 +1,45 @@
+-----app
+
+    The "app" folder is the most important folder in a Laravel project, with the Http and Models folders being the other essential components.
+
+     >> The Http folder contains the controllers folder, where all controller-related applications are inserted. It also has a Middleware folder, which acts as a bridge   between the request and the controller. By default, Laravel provides a few middlewares. The kernel.php file is also important, as it contains the security feature,   middleware configuration, middleware group, middleware aliases, etc. In short, middleware functions or configurations are inserted into this file.
+
+     >> The Model folder contains all the models.
+
+     >> The Providers folder contains a few default files provided by Laravel.
+
+----bootstrap
+
+    The "bootstrap" folder contains auto-generated files. It has a cache folder and an app.php file, which are okay by default. If needed, we can modify them.
+    
+----config
+
+    The "config" folder contains configuration files for all kinds of folders, including the Laravel project. By default, these configuration files are created in a standard way.
+
+----database
+
+    The "database" folder includes the factories, migration, and seeders folders. Most of the time, we need the migration folder for database-related activities, such as creating, editing, changing, deleting tables, table relations, etc.
+
+----public
+
+    The "public" folder contains an index.php file, which starts the application. It also has .htaccess, favicon.ico, and robots.txt files, which are all system-generated.
+
+----resources
+
+    The "resources" folder contains all the view-related things.
+
+----routes
+
+    The "routes" folder handles all kinds of requests from the app to the server or vice versa, via URLs or URIs. It contains two main files that we need: api.php and web.php. If we're developing an API, we write inside the api.php file. If we need to develop an internal web application, we use web.php.
+
+----storage
+
+    The "storage" folder is where we upload files in a Laravel project. It has three main folders: app, framework, and logs. We use the "logs" folder for debugging purposes, error fixing, tracking, etc.
+
+----tests
+
+    The "tests" folder is where we work on test cases if needed.
+
+----vendor
+
+    Finally, the "vendor" folder contains all kinds of PHP packages' files and folders. Most of them are auto-generated files/folders.
